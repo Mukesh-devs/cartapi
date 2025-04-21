@@ -10,8 +10,8 @@ import lombok.*;
 public class Cart {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private Long userId;
-    private Long productId;
+    private Long id; //id
+    private Long userId; //userId
+    private Long productId; //productId
     private int quantity; //quantity
 }
